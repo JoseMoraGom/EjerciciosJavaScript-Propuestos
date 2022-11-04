@@ -15,23 +15,27 @@
         <p id="demo">Escribiremos en este elemento HTML</p>
         <script>
             // Alerta
-            
+            window.alert("¡Hola mundo!");
             /* 
                 Escribir en un elemento HTML, usando innerHTML.
                 Escribimos en este elemento HTML: ¡Hola mundo!
             */
-           
+           document.getElementById("demo").innerHTML="¡Hola mundo!";
+
             // Consolas
-            
+            console.log("Mensaje log");
             // Mensaje de información
-            
+            console.info("Mensaje Info");
             // Mensaje de error
-            
+            console.error("Mensaje Error");
             // Mensaje de advertencia
+            console.warn("Mensaje Warning");
             
             // Debugger
+            debugger
             /* Borra estos comentarios */ // debugger
             // console.log('Despues de la depuración')
+            console.log("Mensaje Debug");
            
         </script>
     </body>
